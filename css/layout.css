@@ -1,0 +1,67 @@
+/* ~~~~~~~~~ layout ~~~~~~~~~~ */
+
+#container {
+	width: 840px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 30px;
+	overflow: hidden;
+}
+
+/* ~~~~~~~~~ header ~~~~~~~~~~ */
+
+#main-navigation {
+	border-bottom: 5px solid #666;
+	margin: 20px 0;
+}
+	#main-navigation ul {
+		overflow: hidden;
+		width: 100%;
+		list-style: none;
+		font-size: 1.6em;
+	}
+		#main-navigation li {
+			float: left;
+		}
+			#main-navigation li a {
+				background: #999;
+				margin: 0 5px 0 0;
+				padding: 5px 30px;
+				display: block;
+				color: #fff;
+				text-decoration: none;
+			}
+			#main-navigation li.current a {
+				background: #666;	
+			}
+			#main-navigation li a:hover {
+				background: #777;	
+			}
+			
+/* ~~~~~~~~~ article ~~~~~~~~~~ */
+
+article {
+	width: 100%;
+	overflow: hidden;
+}
+
+section {
+	float: left;
+	width: 500px;
+}
+
+/* ~~~~~~~~~ aside ~~~~~~~~~~ */
+
+aside {
+	float: right;
+	width: 310px;
+}
+			
+/* ~~~~~~~~~ footer ~~~~~~~~~~ */
+			
+footer {
+	width: 840px;
+	margin: 20px auto;
+	font-size: 1.4em;
+	text-align: right;
+}

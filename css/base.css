@@ -1,0 +1,238 @@
+html {
+	background: url(../images/back.png) no-repeat left bottom;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #999;
+	width: 990px;
+	margin: 50px auto 50px auto;	
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: #999;
+}
+
+a:hover {
+	color: #004677;
+	font-weight: bold;
+}
+
+h2 {
+	color: #004677;
+}
+
+h3 {
+	color: #999;
+	font-size: 16px;
+}
+
+.accessibility {
+	display: none;
+}
+
+div.list-top, div.list-bottom {
+	height: 114px;
+	width: 100px;
+}
+
+div.list-top {
+	background: url(../images/bullet-top.png) no-repeat left;
+}
+
+div.list-bottom {
+	background: url(../images/bullet-bottom.png) no-repeat left;
+}
+
+div#back {
+	float: left;
+	min-height: 25px;
+	margin-left: 400px;
+	text-align: right;
+	padding: 0px 30px 0px 0px;
+	background: url('http://www.nationalrail.co.uk/images/bg-backtotop-link.gif') no-repeat right;
+}
+
+div#back a:link, div#back a:visited, div#back a:hover, div#back a:active {
+	font-weight: bold;
+	font-size: 12px;
+	color: #004677;
+}
+
+div#back a:hover {
+	color: #fff;
+	background: #004677;
+	padding: 5px;
+}
+
+header {
+	background: url('http://www.nationalrail.co.uk/images/logo-nre.gif') no-repeat;
+	height: 49px;
+	margin-bottom: 15px;
+}
+
+header h1 {
+	font-size: 24px;
+	font-weight: normal;
+	margin-left: 390px;
+	padding-top: 10px;
+	padding-left: 50px;
+	border-left: 1px solid #999;
+	height: 45px;
+}
+
+article#cover {
+	background: url(../images/cover.jpg) no-repeat 60px;
+	height: 600px;
+	cursor: pointer;
+}
+
+article#cover h2 {
+	font-size: 20px;
+	font-weight: normal;
+	padding-top: 500px;
+	padding-right: 200px;
+	text-align: right;
+}
+
+article#cover h2 a:link, article#cover h2 a:visited, article#cover h2 a:active {
+	color: #004677;
+	text-decoration: none;
+}
+
+article#cover h2 a:hover, .coverHover {
+	color: #fff!important;
+	font-weight: normal;
+	background: #004677;
+	padding: 10px;
+}
+
+article#index {
+	display: none;
+	margin: 50px 0px;
+}
+
+article#contents {
+	display: none;
+	margin: 50px 0px;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+article#contents h2, article#index h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+article#contents ul {
+	margin: 0px;
+	padding: 0px;
+	width: 480px;
+}
+
+article#contents li {
+	padding: 10px 0px 10px 100px;
+	list-style-type: none;
+	background: url(../images/bullet-white.png) no-repeat left top;
+}
+
+article#contents li.link {
+	padding: 10px 0px 10px 100px;
+	list-style-type: none;
+	background: url(../images/bullet-yellow.png) no-repeat left top;
+}
+
+footer {
+	clear: both;
+	padding-top: 50px;
+}
+
+div.first, div.second, div.third {
+	float: left;
+	display: block;
+	width: 280px;
+	margin: 0px 50px 20px 0px;
+}
+
+div.first ul, div.second ul, div.third ul {
+	margin-bottom: 30px;
+}
+
+div.first li, div.second li, div.third li {
+	list-style-type: none;
+	line-height: 150%;
+}
+
+/* legend */
+
+div#legend {
+	width: 100%;
+	float: left;
+	margin: 0px auto 30px auto;
+	clear: both;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-bottom: none;
+	background: url('http://www.nationalrail.co.uk/images/bg-backtotop.gif') repeat-x bottom;
+}
+
+div#legend dl {
+	clear: both;
+}
+
+div#legend dt {
+	float: left;
+}
+
+div#legend dt span {
+	margin: 3px 10px 0px 0px;
+	float: left;
+	display: block;
+	height: 10px;
+	width: 10px;
+}
+
+div#legend dd {
+	font-size: 14px;
+	float: left;
+	margin-right: 30px;
+}
+
+article#index ul li span {
+	margin: 5px 2px 0px 0px;
+	float: right;
+	display: block;
+	height: 10px;
+	width: 10px;	
+}
+
+span.toc {
+	background: #4d6f91;
+}
+
+span.branded {
+	background: #173963;
+}
+
+span.feed {
+	background: #031b41;
+}
+
+span.self {
+	background: #4d84ad;
+}
+
+span.cc {
+	background: #3373a2;
+}
+
+.highlight {
+	color: #000!important;
+	background: #fff799;
+}
+
+.black {
+	color: #000!important;
+}
